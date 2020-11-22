@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:owl="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C01C02-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C01C02-"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C01-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C01-&amp;C01C04+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C01-&amp;C01C05+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C01-&amp;C01C02+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#the">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C03-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C03-"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C03-&amp;C03C01+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C03-&amp;C05C03-"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C01C05-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C01C05-"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C01C05-&amp;C03C05-"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C03+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C03+&amp;C05C03+&amp;C05C03+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C03+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C03+&amp;C05C01+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C03+&amp;C05C03+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C05-&amp;C05C03+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C01C04-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C04"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C01C04-"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#writes">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C02-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C02-&amp;C02C03+&amp;C02C03+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C02-&amp;C02C03+&amp;C02C02+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C02-&amp;C02C02+&amp;C02C03+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#parent">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#on">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#before">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C02+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C05+&amp;C05C02+&amp;C05C01+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C04C05-&amp;C05C02+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C02+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C01+&amp;C05C05+&amp;C05C02+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C05-&amp;C05C02+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#sees">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C05+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C05+&amp;C05C01+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C05+&amp;C05C02+&amp;C05C01+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C01+&amp;C05C05+&amp;C05C02+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C05+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C05+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C04-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C04-&amp;C04C02+&amp;C04C01+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C04-&amp;C04C03+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C04-&amp;C04C03+&amp;C04C03+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#son">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#binoculars">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C04C03-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C04C03-"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#cake">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#saw">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#not">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#was">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C02C03+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C02-&amp;C02C03+&amp;C02C03+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C02-&amp;C02C03+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C02-&amp;C02C03+&amp;C02C02+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C02-&amp;C02C02+&amp;C02C03+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02C02-&amp;C02C03+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C04C02-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C02-&amp;C04C02-"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#telescope">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C01+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C01+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C03-&amp;C03C01+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C02-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C02-&amp;C05C02-&amp;C02C02+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C02-&amp;C02C03+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C02-&amp;C04C02-"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C02-&amp;C05C02-"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#is">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C02C01-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02C01-"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C01"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#knocked">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C04"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#sausage">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#are">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#sawed">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C04"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#tool">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C02C03-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02C03-"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C03-&amp;C02C03-"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02C03-&amp;C03C03-"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C04+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C04+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C03-&amp;C03C04+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C04C01+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C04-&amp;C04C02+&amp;C04C01+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#child">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#human">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C05-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C01+&amp;C05C05+&amp;C05C02+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C05+&amp;C05C01+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C03+&amp;C05C03+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C05+&amp;C05C02+&amp;C05C01+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C01C05-"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C01C05-&amp;C03C05-"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C03+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C03+&amp;C05C01+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C03+&amp;C05C03+&amp;C05C03+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C05+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#with">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C01"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C02C04-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02C04-&amp;C04C05+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C04C05+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02C04-&amp;C04C05+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C02+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C02+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#has">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C01"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#a">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C04C03+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C04-&amp;C04C03+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C04-&amp;C04C03+&amp;C04C03+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#mom">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#her">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#be">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C04"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C02C02-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02C02-&amp;C02C03+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02C02-&amp;C02C04+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02C02-&amp;C02C01+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#liked">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#chalk">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C04"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C05+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C03-&amp;C03C05+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C05-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C05-&amp;C05C02+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C05-&amp;C05C03+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C02C01+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02C02-&amp;C02C01+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C04C05-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C04C05-&amp;C05C02+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#of">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C02C02+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02C02+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C02-&amp;C05C02-&amp;C02C02+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C02-&amp;C02C03+&amp;C02C02+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C02-&amp;C02C02+&amp;C02C03+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C01-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C01-&amp;C01C05+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C01-&amp;C01C02+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#wants">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C01C05+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C01-&amp;C01C05+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C01-&amp;C01C05+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C04C01-&amp;C01C05+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C01C04+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C01-&amp;C01C04+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C02C04+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02C02-&amp;C02C04+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#likes">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C04"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#board">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C03-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C03-&amp;C05C03-"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C03-&amp;C02C03-"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02C03-&amp;C03C03-"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C03-&amp;C03C04+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C03-&amp;C03C05+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C01C02+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05C01-&amp;C01C02+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C01-&amp;C01C02+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#dad">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#directors">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C01"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C04C01-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C04C01-&amp;C01C05+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#to">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#his">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#food">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#wood">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#now">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C03+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C03+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C01+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C03+&amp;C05C01+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C01+&amp;C05C05+&amp;C05C02+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C05+&amp;C05C01+"/>
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C05+&amp;C05C02+&amp;C05C01+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#daughter">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C04C02+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03C04-&amp;C04C02+&amp;C04C01+"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#hammer">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C03+&amp;C05C03+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C02-&amp;C04C02-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C02C02-&amp;C02C03+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C01-&amp;C01C05+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C01"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C02C02-&amp;C02C04+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C05-&amp;C01C05-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C02C03-&amp;C03C03-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C02-&amp;C02C03+&amp;C02C02+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C02C02-&amp;C02C01+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C02-&amp;C02C03+&amp;C02C03+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C02-&amp;C05C02-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C01C05-&amp;C03C05-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C03+&amp;C05C03+&amp;C05C03+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C03-&amp;C03C01+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C03+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C05-&amp;C05C02+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C02">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C01-&amp;C01C02+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C01"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C05+&amp;C05C02+&amp;C05C01+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C05-&amp;C05C03+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C02-&amp;C02C03+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C05+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C04C01-&amp;C01C05+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C01"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C05+&amp;C05C01+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C03-&amp;C05C03-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C02-&amp;C02C02+&amp;C02C03+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C02-&amp;C05C02-&amp;C02C02+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C02"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C01-&amp;C01C05+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C01"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C01+&amp;C05C05+&amp;C05C02+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C05-&amp;C05C03+&amp;C05C01+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C03-&amp;C02C03-">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C04-&amp;C04C03+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C04"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05C01-&amp;C01C04+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C01"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C05">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C04">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C03-&amp;C03C04+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C01-&amp;C01C02+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C01"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C04-&amp;C04C02+&amp;C04C01+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C04"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C03-&amp;C03C05+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C03"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C04C05-&amp;C05C02+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C05"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C03C04-&amp;C04C03+&amp;C04C03+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C04"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C02C04-&amp;C04C05+">
+    <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/myOntology#C04"/>
+  </owl:Class>
+  <owl:Class rdf:about="http://www.semanticweb.org/myOntology#C01">
+    <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+  </owl:Class>
+</rdf:RDF>
